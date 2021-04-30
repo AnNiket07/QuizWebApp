@@ -17,7 +17,7 @@ class QuizBee extends Component {
         questionBank: question,
       });
     });
-  };
+  };  
   computeAnswer = (answer, correctAnswer) => {
     if (answer === correctAnswer) {
       this.setState({
